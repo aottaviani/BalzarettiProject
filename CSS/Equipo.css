@@ -1,0 +1,48 @@
+#equipo{
+    width: 90%;
+    background-image: url(../IMG/Barley_Field_Sunset.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#titulo-equipo{
+    width: 90%;
+    margin: auto;
+    color: rgb(31,43,65);
+    font-size: 2.5em;
+    font-weight: 5px;
+    text-align: center;
+    border-bottom: 1px ridge rgb(31 , 43, 65);
+    padding: 3px;
+    margin-bottom: 8px;
+}
+.cajasdeperfil{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+
+.perfil{
+   margin: 20px;
+   
+}
+
+.perfil img{
+    width: 220px;
+    height:220px;
+    border-radius: 50%;
+    border: 3px solid rgb(31,43,65);
+}
+
+@media  (min-width:1024px) {
+    #equipo {
+        width: 1000px;       
+ }
+    #titulo-equipo{
+        width: 1000px;
+    }
+}

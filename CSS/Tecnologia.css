@@ -1,0 +1,66 @@
+
+@font-face{
+    font-family: 'Letraparrafo';
+    src: url(../Font/SenzaBella-Regular.otf);
+    }
+    
+
+.IDC{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.IDC h2{
+    width: 100%;
+    margin: auto;
+    color: rgb(31,43,65);
+    font-size: 2.5em;
+    font-weight: 5px;
+    text-align: center;
+    border-bottom: 1px ridge rgb(31 , 43, 65);
+    padding: 3px;
+    margin-bottom: 8px;
+}
+.IDC p{
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 2em;
+    font-family: 'Letraparrafo';   
+    
+}
+
+.IDC a{
+    text-decoration: none;
+    font-style: italic;
+
+}
+#Foto-equipo{
+    display: none;
+}
+.etiqueta{
+    font-style: oblique;
+    
+}
+.etiqueta:hover{
+    cursor: pointer;
+}
+#Foto-equipo:checked ~ .IDC img{
+    display: block;
+    margin: auto;
+}
+
+.IDC img{
+        width: 50%;
+        display: none;
+    }
+
+@media  (min-width:1024px) {
+    .IDC {
+        width: 1000px;       
+ }
+}
+
+

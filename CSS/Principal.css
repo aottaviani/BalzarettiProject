@@ -1,0 +1,88 @@
+@font-face{
+font-family: 'NuevaLetra';
+src: url(../Font/Mithella-Regular.otf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+
+    /*Box-sizing permite cambiar el modo por defecto
+    en que los navegadores consideran las medidas del 
+    modelo de caja
+    con box-sizing: border-box, si le decimos que 
+       div.{
+           width= 200px
+           padding=20px
+           margin=20px
+       }
+       entonces el ancho del contenido es 160px
+
+       en cambio si utilizo
+       box-sizing por defecto, en el mismo ejemplo
+       el ancho total sera de 240px
+    */
+}
+
+.bloque{
+    font-family: 'NuevaLetra';
+    font-size: 3em;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+    background-color: whitesmoke;
+    margin-top: 4rem ;
+}
+
+header{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(31,43,65);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor{
+    height: 3rem;
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main{
+    height: 1200px;
+   width: 90%;
+   margin: auto;
+   text-align: justify;
+}
+
+section{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+footer{
+    background-color: grey;
+}
+
+@media  (min-width:1024px) {
+    header .contenedor{
+        width: 1000px;
+    }
+    
+    #banner img{
+        width: 1000px;
+    }
+}

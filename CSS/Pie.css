@@ -1,0 +1,30 @@
+.contenedor-footer{
+  width: 90%;
+  margin: auto;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#derechos{
+    font-style: italic;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    color: rgb(39, 39, 39);
+}
+
+.redes{
+   font-size: 15px;
+}
+
+.icon-instagram{
+  filter: saturate(4);
+}
+
+@media  (min-width:1024px) {
+    .contenedor-footer {
+        width: 1000px; 
+        margin: auto;      
+ }
+}

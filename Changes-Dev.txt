@@ -1,0 +1,7 @@
+1- He descargado el Master desde GitHub 
+2- Luego cree una nueva rama llamada Dev 
+3- En esa nueva rama realicé los siguientes cambios:
+     a. Modifiqué el comentario de la línea 31 de Index.html 
+     b. Cree este archivo donde describo lo que hice
+4- Voy a volver a subir ésto a GitHub y tratar de fusionarlo luego con la rama Máster del proyecto
+    de esa manera sigo practicando la utilización de Git y GitHub 
